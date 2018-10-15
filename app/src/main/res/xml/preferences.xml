@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings"
+    >
+    <PreferenceCategory
+        android:title="Measure"
+        >
+        <ListPreference
+            android:key="settings_measure"
+            android:title="Measure"
+            android:dialogTitle="dialog title"
+            android:entries="@array/pref_measure_list"
+            android:entryValues="@array/pref_measure_list_value"
+            android:defaultValue="m/sv"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Speedo</string>
+    <string name="some_error">error</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to SettingsActivity -->
+
+    <string-array name="pref_measure_list">
+        <item>km/h</item>
+        <item>m/s</item>
+    </string-array>
+
+    <string-array name="pref_measure_list_value">
+        <item>valueKmH</item>
+        <item>valueMS</item>
+    </string-array>
+
+    <string-array name="pref_provider_list">
+        <item>Gps</item>
+        <item>Network</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="pref_provider_list_value">
+        <item>valueGps</item>
+        <item>valueNetwork</item>
+        <item>valueBoth</item>
+    </string-array>
+
+    <string-array name="pref_min_time_list">
+        <item>always</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="pref_min_time_list_value">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="pref_distance_list">
+        <item>always</item>
+        <item>5 meters</item>
+        <item>10 meters</item>
+        <item>30 meters</item>
+        <item>60 meters</item>
+    </string-array>
+
+    <string-array name="pref_distance_list_value">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+
+
+    <string-array name="pref_coordinate_format_list">
+        <item>DD.DDDDDD</item>
+        <item>DD\u00B0MM.MMMM'</item>
+        <item>DD\u00B0MM\'SS.SSS\"</item>
+    </string-array>
+
+    <string-array name="pref_coordinate_format_list_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

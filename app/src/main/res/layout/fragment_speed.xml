@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    android:paddingBottom="40dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:orientation="vertical"
+    tools:context=".ui.main.speed.SpeedFragment"
+    >
+
+    <LinearLayout
+        android:id="@+id/container_coordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/title_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="160dp"
+            android:text="Latitude:"
+            android:textSize="8dp"
+            />
+        <TextView
+            android:id="@+id/tvLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="160dp"
+            android:layout_marginBottom="5dp"
+            android:text="unknown"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/title_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="160dp"
+            android:text="Longitude:"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tvLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="160dp"
+            android:layout_marginBottom="5dp"
+            android:text="unknown"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/title_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="160dp"
+        android:text="Provider:"
+        android:textSize="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="160dp"
+        android:layout_marginBottom="5dp"
+        android:text="unknown"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Speed:"
+        android:gravity="center"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0.0 km/h"
+        android:textSize="48sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

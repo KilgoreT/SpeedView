@@ -1,0 +1,90 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Root Screen Prefs">
+
+    <PreferenceCategory
+        android:title="Speed settings"
+        android:summary="this is summary"
+        >
+        <ListPreference
+            android:key="pref_measure"
+            android:title="Measure"
+            android:summary="set your measure speed"
+            android:entries="@array/pref_measure_list"
+            android:entryValues="@array/pref_measure_list_value"
+            android:defaultValue="valueKmH"
+            />
+
+        <ListPreference
+            android:key="pref_min_time"
+            android:title="Time interval"
+            android:summary="Time interval to update locate data"
+            android:entries="@array/pref_min_time_list"
+            android:entryValues="@array/pref_min_time_list_value"
+            android:defaultValue="30"
+            />
+
+        <ListPreference
+            android:key="pref_distance"
+            android:title="Distance"
+            android:summary="Distance to update locate data"
+            android:entries="@array/pref_distance_list"
+            android:entryValues="@array/pref_distance_list_value"
+            android:defaultValue="30"
+            />
+
+        <ListPreference
+            android:key="pref_provider"
+            android:title="Choose locate provider"
+            android:entries="@array/pref_provider_list"
+            android:entryValues="@array/pref_provider_list_value"
+            android:defaultValue="valueBoth"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Coordinate"
+        >
+
+        <CheckBoxPreference
+            android:key="pref_isEnableCoordinate"
+            android:title="Show coordinates"
+            android:defaultValue="true"
+            />
+
+        <ListPreference
+            android:key="pref_coordinateFormat"
+            android:title="Choose coordinate format"
+            android:entries="@array/pref_coordinate_format_list"
+            android:entryValues="@array/pref_coordinate_format_list_value"
+            android:defaultValue="2"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Display"
+        >
+
+        <CheckBoxPreference
+            android:key="pref_isEnableDisplay"
+            android:title="Sleep Display"
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Map"
+        >
+        <CheckBoxPreference
+            android:title="Use Google Map"
+            android:summary="add support google map"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
